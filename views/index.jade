@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+
+	//Content wrapper
+	main
+		//User List
+		h2 User List
+		#userList
+			table
+				thead
+					th User
+					th Email
+					th Delete?
+				tbody
+
